@@ -1,0 +1,48 @@
+[
+  {
+    "name": "Andromeda Galaxy",
+    "type": "Galaxy",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c2/M31_09-01-2011_%28cropped%29.jpg/1200px-M31_09-01-2011_%28cropped%29.jpg",
+    "description": "The Andromeda Galaxy, also known as Messier 31, is a spiral galaxy approximately 2.5 million light-years from Earth. It is the nearest major galaxy to the Milky Way and is visible to the naked eye on moonless nights.",
+    "distance": "2.5 million light-years",
+    "size": "220,000 light-years in diameter",
+    "interesting_fact": "Andromeda is on a collision course with the Milky Way. In about 4.5 billion years, the two galaxies will collide and merge."
+  },
+  {
+    "name": "Orion Nebula",
+    "type": "Nebula",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f3/Orion_Nebula_-_Hubble_2006_mosaic_18000.jpg/1200px-Orion_Nebula_-_Hubble_2006_mosaic_18000.jpg",
+    "description": "The Orion Nebula is a diffuse nebula situated in the Milky Way, being south of Orion's Belt in the constellation of Orion. It is one of the brightest nebulae and is visible to the naked eye in the night sky.",
+    "distance": "1,344 light-years",
+    "size": "24 light-years across",
+    "interesting_fact": "The Orion Nebula is one of the most intensely studied celestial features and has revealed much about the process of star formation."
+  },
+  {
+    "name": "Crab Nebula",
+    "type": "Supernova Remnant",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/00/Crab_Nebula.jpg/1200px-Crab_Nebula.jpg",
+    "description": "The Crab Nebula is a supernova remnant in the constellation of Taurus. The now-visible nebula was created by a supernova explosion which was observed by Chinese astronomers in 1054 AD.",
+    "distance": "6,500 light-years",
+    "size": "11 light-years across",
+    "interesting_fact": "The Crab Nebula is expanding at a rate of about 1,500 kilometers per second."
+  },
+  {
+    "name": "Black Hole M87",
+    "type": "Black Hole",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4f/Black_hole_-_Messier_87_crop_max_res.jpg/1200px-Black_hole_-_Messier_87_crop_max_res.jpg",
+    "description": "M87* is a supermassive black hole at the center of the galaxy Messier 87. It was the first black hole to be directly imaged by the Event Horizon Telescope.",
+    "distance": "55 million light-years",
+    "size": "6.5 billion times the mass of the Sun",
+    "interesting_fact": "The famous image of M87* was created using a network of eight radio telescopes around the world, effectively creating an Earth-sized telescope."
+  },
+  {
+    "name": "Pillars of Creation",
+    "type": "Nebula Feature",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/68/Pillars_of_creation_2014_HST_WFC3-UVIS_full-res_denoised.jpg/1200px-Pillars_of_creation_2014_HST_WFC3-UVIS_full-res_denoised.jpg",
+    "description": "The Pillars of Creation are elephant trunks of interstellar gas and dust in the Eagle Nebula. They are so named because the gas and dust are in the process of creating new stars.",
+    "distance": "7,000 light-years",
+    "size": "4 to 5 light-years tall",
+    "interesting_fact": "The Pillars of Creation were first photographed by the Hubble Space Telescope in 1995, creating one of the most iconic images in astronomy."
+  }
+]
+

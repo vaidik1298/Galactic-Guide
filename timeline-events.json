@@ -1,0 +1,44 @@
+[
+    {
+      "date": "October 4, 1957",
+      "title": "Sputnik 1",
+      "description": "The Soviet Union launches Sputnik 1, the first artificial Earth satellite."
+    },
+    {
+      "date": "April 12, 1961",
+      "title": "First Human in Space",
+      "description": "Yuri Gagarin becomes the first human to journey into outer space aboard Vostok 1."
+    },
+    {
+      "date": "July 20, 1969",
+      "title": "Moon Landing",
+      "description": "Neil Armstrong and Buzz Aldrin become the first humans to land on the Moon during the Apollo 11 mission."
+    },
+    {
+      "date": "April 19, 1971",
+      "title": "First Space Station",
+      "description": "The Soviet Union launches Salyut 1, the first space station."
+    },
+    {
+      "date": "April 12, 1981",
+      "title": "First Space Shuttle Launch",
+      "description": "The first orbital flight of NASA's Space Shuttle program, Columbia."
+    },
+    {
+      "date": "November 20, 1998",
+      "title": "ISS Construction Begins",
+      "description": "The first module of the International Space Station is launched."
+    },
+    {
+      "date": "February 18, 2021",
+      "title": "Perseverance Rover Lands on Mars",
+      "description": "NASA's Perseverance rover successfully lands on Mars with the Ingenuity helicopter drone."
+    },
+    {
+      "date": "December 25, 2021",
+      "title": "James Webb Space Telescope Launch",
+      "description": "The James Webb Space Telescope, the largest and most powerful space telescope ever built, is launched."
+    }
+  ]
+  
+  

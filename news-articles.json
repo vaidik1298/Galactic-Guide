@@ -1,0 +1,36 @@
+[
+    {
+      "title": "NASA's Perseverance Rover Collects First Mars Rock Sample",
+      "date": "2023-09-15",
+      "image": "../perseverance_rover.jpeg",
+      "summary": "The rover has successfully drilled and collected its first rock core that will be returned to Earth in a future mission.",
+      "url": "#",
+      "category": "missions"
+    },
+    {
+      "title": "Astronomers Discover Earth-like Planet in Habitable Zone",
+      "date": "2023-09-10",
+      "image": "../new_planet.jpeg",
+      "summary": "Scientists have found a potentially habitable exoplanet orbiting a nearby star, showing signs of water in its atmosphere.",
+      "url": "#",
+      "category": "discoveries"
+    },
+    {
+      "title": "SpaceX Successfully Launches Starship Prototype",
+      "date": "2023-09-05",
+      "image": "../spacex.jpeg",
+      "summary": "The latest test flight of SpaceX's Starship prototype has achieved new milestones in the development of the Mars-bound spacecraft.",
+      "url": "#",
+      "category": "technology"
+    },
+    {
+      "title": "James Webb Space Telescope Reveals Stunning Images of Distant Galaxy",
+      "date": "2023-08-28",
+      "image": "../jamesweb.jpeg",
+      "summary": "The newest space telescope has captured unprecedented details of a galaxy formation from the early universe.",
+      "url": "#",
+      "category": "astronomy"
+    }
+  ]
+  
+  
