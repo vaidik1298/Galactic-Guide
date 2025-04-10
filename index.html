@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Galactic Guide - Explore the Universe</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;700;900&family=Space+Mono&family=Exo+2:wght@300;400;600;700&display=swap" rel="stylesheet">
+</head>
+<body class="home-page">
+    <div id="stars-container"></div>
+    
+    <!-- Mobile Menu -->
+    <div class="mobile-menu" id="mobile-menu">
+        <div class="mobile-menu-content">
+            <div class="mobile-menu-header">
+                <div class="logo">
+                    <div class="logo-icon">
+                        <div class="planet-ring"></div>
+                        <div class="planet-circle"></div>
+                    </div>
+                    <h1>Galactic Guide</h1>
+                </div>
+                <button class="close-menu-btn" id="close-menu-btn">&times;</button>
+            </div>
+            <nav class="mobile-nav">
+                <ul>
+                    <li><a href="index.html" class="nav-link">Home</a></li>
+                    <li><a href="pages/solar-system.html" class="nav-link">Solar System</a></li>
+                    <li><a href="pages/outer-space.html" class="nav-link">Outer Space</a></li>
+                    <li><a href="pages/space-exploration.html" class="nav-link">Exploration</a></li>
+                    <li><a href="pages/news.html" class="nav-link">Space News</a></li>
+                </ul>
+            </nav>
+        </div>
+    </div>
+
+    <!-- Header -->
+    <header>
+        <div class="header-content">
+            <div class="header-left">
+                <button class="menu-btn" id="menu-btn">
+                    <span class="menu-icon"></span>
+                </button>
+                <div class="logo">
+                    <div class="logo-icon">
+                        <div class="planet-ring"></div>
+                        <div class="planet-circle"></div>
+                    </div>
+                    <div>
+                        <h1>Galactic Guide</h1>
+                        <p>Explore the wonders of our universe</p>
+                    </div>
+                </div>
+            </div>
+            <nav class="desktop-nav">
+                <ul>
+                    <li><a href="index.html" class="nav-link">Home</a></li>
+                    <li><a href="pages/solar-system.html" class="nav-link">Solar System</a></li>
+                    <li><a href="pages/outer-space.html" class="nav-link">Outer Space</a></li>
+                    <li><a href="pages/space-exploration.html" class="nav-link">Exploration</a></li>
+                    <li><a href="pages/news.html" class="nav-link">Space News</a></li>
+                    <li><a href="pages/alien-search.html" class="nav-link">AlienSearch</a></li>
+                    <li><a href="pages/login.html" class="nav-link">Login</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section class="hero">
+            <div class="hero-content">
+                <h2>Discover the Wonders of the Cosmos</h2>
+                <p>Embark on a journey through space and time. Explore planets, stars, galaxies, and the mysteries of the universe.</p>
+                <div class="hero-buttons">
+                    <a href="pages/solar-system.html" class="btn primary-btn">Explore Solar System</a>
+                    <a href="pages/outer-space.html" class="btn secondary-btn">Discover Deep Space</a>
+                </div>
+            </div>
+        </section>
+        
+        <!-- Featured Sections -->
+        <section>
+            <h2>Explore the Universe</h2>
+            <div class="section-cards">
+                <div class="section-card">
+                    <div class="card-image">
+                        <img src="https://images.unsplash.com/photo-1614732414444-096e5f1122d5" alt="Solar System">
+                    </div>
+                    <div class="card-content">
+                        <h3>Our Solar System</h3>
+                        <p>Discover the planets, moons, asteroids, and comets that orbit our Sun.</p>
+                        <a href="pages/solar-system.html" class="btn secondary-btn">Explore</a>
+                    </div>
+                </div>
+                
+                <div class="section-card">
+                    <div class="card-image">
+                        <img src="https://images.unsplash.com/photo-1462331940025-496dfbfc7564" alt="Deep Space">
+                    </div>
+                    <div class="card-content">
+                        <h3>Deep Space Objects</h3>
+                        <p>Explore stars, nebulae, galaxies, and other fascinating objects beyond our solar system.</p>
+                        <a href="pages/outer-space.html" class="btn secondary-btn">Discover</a>
+                    </div>
+                </div>
+                
+                <div class="section-card">
+                    <div class="card-image">
+                        <img src="https://images.unsplash.com/photo-1446776811953-b23d57bd21aa" alt="Space Exploration">
+                    </div>
+                    <div class="card-content">
+                        <h3>Space Exploration</h3>
+                        <p>Learn about past, present, and future missions that expand our understanding of space.</p>
+                        <a href="pages/space-exploration.html" class="btn secondary-btn">Learn More</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <!-- Cosmic Scale Section -->
+        <section>
+            <h2>The Cosmic Scale</h2>
+            <div class="cosmic-scale">
+                <p>Slide to explore different scales of the universe, from planets to the entire observable cosmos.</p>
+                
+                <div class="scale-slider-container">
+                    <input type="range" min="1" max="5" value="1" class="slider" id="cosmic-scale-slider">
+                    <div class="scale-labels">
+                        <span>Planets</span>
+                        <span>Stars</span>
+                        <span>Nebulae</span>
+                        <span>Galaxies</span>
+                        <span>Universe</span>
+                    </div>
+                </div>
+                
+                <div class="scale-description" id="scale-description">
+                    At the planetary scale, we observe worlds ranging from small rocky bodies like Mercury to gas giants like Jupiter. Earth, our home, is just one of billions of planets in our galaxy alone.
+                </div>
+            </div>
+        </section>
+        
+        <!-- Space Fact Section -->
+        <section>
+            <h2>Space Facts</h2>
+            <div class="space-fact" id="random-fact">
+                <!-- Random fact will be inserted here by JavaScript -->
+                <div class="loading-spinner"></div>
+            </div>
+        </section>
+        
+        <!-- API Sections -->
+        <section class="api-section">
+            <h2>Space Updates</h2>
+            <div class="api-grid">
+                <!-- NASA APOD -->
+                <div class="api-card">
+                    <h3>NASA Image of the Day</h3>
+                    <div id="apod-loading-spinner" class="loading-spinner"></div>
+                    <div id="nasa-apod">
+                        <!-- APOD content will be inserted here by JavaScript -->
+                    </div>
+                </div>
+                
+                <!-- Astronomical Events -->
+                <div class="api-card">
+                    <h3>Upcoming Astronomical Events</h3>
+                    <div id="events-loading-spinner" class="loading-spinner"></div>
+                    <div id="astronomical-events">
+                        <!-- Events content will be inserted here by JavaScript -->
+                    </div>
+                </div>
+                
+                <!-- SpaceX Launches -->
+                <div class="api-card">
+                    <h3>Upcoming SpaceX Launches</h3>
+                    <div id="launches-loading-spinner" class="loading-spinner"></div>
+                    <div id="spacex-launches">
+                        <!-- Launches content will be inserted here by JavaScript -->
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>Galactic Guide</h3>
+                <p>Your journey through the cosmos starts here</p>
+            </div>
+            <div class="footer-section">
+                <h4>Quick Links</h4>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="pages/solar-system.html">Solar System</a></li>
+                    <li><a href="pages/outer-space.html">Outer Space</a></li>
+                    <li><a href="pages/space-exploration.html">Exploration</a></li>
+                    <li><a href="pages/news.html">Space News</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h4>Resources</h4>
+                <ul>
+                    <li><a href="https://www.nasa.gov/" target="_blank">NASA</a></li>
+                    <li><a href="https://www.esa.int/" target="_blank">ESA</a></li>
+                    <li><a href="https://www.space.com/" target="_blank">Space.com</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2025 Galactic Guide | Explore the Universe</p>
+        </div>
+    </footer>
+
+    <!-- APOD Modal -->
+    <div id="apod-modal" class="modal">
+        <div class="modal-content">
+            <!-- Modal content will be inserted here by JavaScript -->
+        </div>
+    </div>
+
+    <!-- JavaScript Files -->
+    <script src="./js/stars-background.js"></script>
+    <script src="./js/main.js"></script>
+    <script src="./js/navigation.js"></script>
+    <script src="./js/cosmic-scale.js"></script>
+    <script src="./js/random-facts.js"></script>
+    <script src="./js/api-handelers.js"></script>
+</body>
+</html>
+
