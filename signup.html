@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Sign Up - Galactic Guide</title>
+  <link rel="stylesheet" href="../css/styles.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com"/>
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&family=Space+Mono&family=Exo+2:wght@400;600&display=swap" rel="stylesheet"/>
+</head>
+<body class="home-page">
+  <div id="stars-container"></div>
+
+  <header>
+    <div class="header-content">
+      <div class="header-left">
+        <a href="../pages/index.html" class="logo">
+          <div class="logo-icon">
+            <div class="planet-ring"></div>
+            <div class="planet-circle"></div>
+          </div>
+          <div>
+            <h1>Galactic Guide</h1>
+            <p>Explore the wonders of our universe</p>
+          </div>
+        </a>
+      </div>
+    </div>
+  </header>
+
+  <main class="auth-container">
+    <section class="auth-card">
+      <h2>Sign Up</h2>
+      <form id="signup-form" class="auth-form">
+        <label for="email">Email</label>
+        <input type="email" id="email" placeholder="Enter your email" required/>
+
+        <label for="password">Password</label>
+        <input type="password" id="password" placeholder="Create a password" required/>
+
+        <label for="confirm-password">Confirm Password</label>
+        <input type="password" id="confirm-password" placeholder="Repeat your password" required/>
+
+        <button type="submit" class="btn primary-btn" id="submit">Sign Up</button>
+        <p class="auth-link">Already have an account? <a href="../pages/login.html"></a>>Login</p>
+        <p id="signup-error" class="error-text"></p>
+      </form>
+    </section>
+  </main>
+
+  <footer class="footer-bottom">
+    <p>&copy; 2025 Galactic Guide | Explore the Universe</p>
+  </footer>
+
+  <script>
+    const InputEmail=document.getElementById("email");
+    const InputPassword=document.getElementById("password");
+    const buttonSubmit=document.getElementById("submit");
+    buttonSubmit.addEventListener('click',async(e)=>{
+        e.preventDefault();
+        const response=await fetch('http://localhost:3000/signup', {
+            method: 'POST',
+            headers: { 'Content-Type': 'application/json' },
+            body: JSON.stringify({ Email: InputEmail.value, Password: InputPassword.value }) 
+        });
+        console.log("post requets send");
+        if (response.ok) {
+        console.log("✅ Signup successful");
+        window.location.href = "../index.html"; 
+      }
+    })
+  </script>
+</body>
+</html>

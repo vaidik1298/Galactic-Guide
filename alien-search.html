@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>DeepSeek AI - Galactic Guide</title>
+
+  <!-- Custom Galactic Guide Styles -->
+  <link rel="stylesheet" href="css/styles.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;700;900&family=Space+Mono&family=Exo+2:wght@300;400;600;700&display=swap" rel="stylesheet" />
+  <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+
+  <style>
+    body {
+      background: radial-gradient(ellipse at bottom, #050d1f 0%, #000000 100%);
+      color: white;
+      font-family: 'Orbitron', sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+
+    .chat-container {
+      max-width: 800px;
+      margin: 80px auto;
+      padding: 40px;
+      background: rgba(0, 0, 0, 0.5);
+      border: 2px solid #00ffff;
+      border-radius: 20px;
+      backdrop-filter: blur(12px);
+      box-shadow: 0 0 40px rgba(0, 255, 255, 0.3);
+    }
+
+    .chat-container h2 {
+      text-align: center;
+      font-size: 2.2rem;
+      color: #00ffff;
+      margin-bottom: 30px;
+      text-shadow: 0 0 10px #00ffffaa;
+    }
+
+    .chat-input {
+      width: 100%;
+      padding: 15px 20px;
+      border: 2px solid #00ffff;
+      border-radius: 50px;
+      background-color: rgba(255, 255, 255, 0.1);
+      color: #ffffff;
+      font-size: 1rem;
+      outline: none;
+      margin-bottom: 20px;
+      transition: 0.3s ease-in-out;
+    }
+
+    .chat-input:focus {
+      border-color: #ffffff;
+      background-color: rgba(255, 255, 255, 0.2);
+    }
+
+    .chat-button {
+      display: block;
+      width: 100%;
+      padding: 12px;
+      font-size: 1.1rem;
+      font-weight: bold;
+      background: linear-gradient(to right, #00c6ff, #0072ff);
+      color: white;
+      border: none;
+      border-radius: 50px;
+      transition: 0.3s;
+      cursor: pointer;
+    }
+
+    .chat-button:hover {
+      transform: scale(1.02);
+      background: linear-gradient(to right, #00ffff, #0077ff);
+    }
+
+    #response {
+      margin-top: 20px;
+      padding: 20px;
+      background-color: rgba(0, 0, 0, 0.4);
+      border-radius: 10px;
+      border: 1px solid #00ffff;
+      color: white;
+      line-height: 1.6;
+    }
+
+    canvas#stars {
+      position: fixed;
+      top: 0;
+      left: 0;
+      z-index: -1;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="chat-container">
+    <h2>Galactic Chat with DeepSeek AI</h2>
+    <input type="text" id="userInput" class="chat-input" placeholder="Ask me anything about the cosmos...">
+    <button class="chat-button" onclick="sendMessage()">Launch Query</button>
+    <div id="response"></div>
+  </div>
+
+  <script src="../js/main.js"></script>
+</body>
+</html>
